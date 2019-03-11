@@ -1,0 +1,6 @@
+framework module Pods_Jsqlite_Example {
+  umbrella header "Pods-Jsqlite_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

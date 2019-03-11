@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Jsqlite'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of Jsqlite.'
 
 # This description is used to generate tags and improve search results.
@@ -32,6 +32,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Jsqlite/Classes/**/*'
   
+  #s.ios.vendored_frameworks = "xxx/**/*.framework"
+  #s.ios.vendored_libraries = "sqlite3.tbd”
+  s.library = 'sqlite3'
+  
   # s.resource_bundles = {
   #   'Jsqlite' => ['Jsqlite/Assets/*.png']
   # }
@@ -39,4 +43,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'YYModel'
 end

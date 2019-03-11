@@ -1,0 +1,6 @@
+framework module Jsqlite {
+  umbrella header "Jsqlite-umbrella.h"
+
+  export *
+  module * { export * }
+}

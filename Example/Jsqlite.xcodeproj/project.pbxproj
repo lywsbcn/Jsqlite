@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0AA9716958DEF16DC571F618 /* Pods-Jsqlite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jsqlite_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jsqlite_Tests/Pods-Jsqlite_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1E760A427438C568FFEFB3C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2FB3E7E27CFDE0BE3864E161 /* Jsqlite.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Jsqlite.podspec; path = ../Jsqlite.podspec; sourceTree = "<group>"; };
+		1E760A427438C568FFEFB3C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2FB3E7E27CFDE0BE3864E161 /* Jsqlite.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Jsqlite.podspec; path = ../Jsqlite.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		403C991AED845BC1B8CA0870 /* Pods_Jsqlite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jsqlite_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0BE46A7211D7B3E1CF0755 /* Pods-Jsqlite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jsqlite_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jsqlite_Tests/Pods-Jsqlite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Jsqlite_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jsqlite_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		7D73D16EA69D2FA3D1ED8D27 /* Pods_Jsqlite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jsqlite_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E83568E947E67DC5B38FE8E /* Pods-Jsqlite_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jsqlite_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jsqlite_Example/Pods-Jsqlite_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC8769C6852C8E51061A5A82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC8769C6852C8E51061A5A82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Jsqlite_Tests-checkManifestLockResult.txt",
 			);
@@ -321,15 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Jsqlite_Example-checkManifestLockResult.txt",
 			);
@@ -343,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Jsqlite_Example/Pods-Jsqlite_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Jsqlite/Jsqlite.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Jsqlite.framework",
 			);

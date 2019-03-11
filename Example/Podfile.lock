@@ -1,0 +1,16 @@
+PODS:
+  - Jsqlite (0.1.0)
+
+DEPENDENCIES:
+  - Jsqlite (from `../`)
+
+EXTERNAL SOURCES:
+  Jsqlite:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Jsqlite: b5d5accd1f3648b2532beaae254d8394fd566961
+
+PODFILE CHECKSUM: bcda8ee58af8f0b4fc8d976d0cada1f11abfe1cb
+
+COCOAPODS: 1.5.3
