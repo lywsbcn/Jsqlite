@@ -19,6 +19,44 @@ pod 'Jsqlite'
 ```
 
 ## Use
+# JSQLconn
+sqlite 连接管理
+
+设置数据库名称,默认为 appSqlite.sqlite
+
+数据库位置 沙盒/Documents/appSqlite.sqlite
+```ruby
+[JSQLconn instance].dbName=@"appSqlite.sqlite"
+```
+打开数据库
+如果数据库存在就打开,如果不存在就创建一个再打开
+```ruby
+BOOL success = [[JSQLconn instance] openDB];
+```
+关闭数据库
+```ruby
+[[JSQLconn instance] closeDB];
+```
+执行 sql 语句
+```ruby
+[[JSQLconn instance] execuSQL:(NSString *)SQL];
+```
+查询数据库中数据
+```ruby
+-(NSArray *)querySQL:(NSString *)SQL WithClass:(Class)name;
+-(NSArray *)querySQL:(NSString *)SQL
+```
+获取插入数据后的
+```ruby
+[[JSQLconn instance] getID];
+```
+
+获取受影响的记录数
+ 增,改,删
+ ```ruby
+ [[JSQLconn instance] changes];
+ ```
+ 
 # JSQLct
 创建表格
 
