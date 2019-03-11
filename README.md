@@ -18,7 +18,7 @@ it, simply add the following line to your Podfile:
 pod 'Jsqlite'
 ```
 
-## use
+## Use
 # JSQLct
 创建表格
 
