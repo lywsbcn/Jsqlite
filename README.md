@@ -41,6 +41,7 @@ pod 'Jsqlite'
 [JSQLct instance].table(NSString *name).column(NSDictionary *data);
 ```
 同时创建多张表
+
 范例1:
 ```ruby
     @{
@@ -63,7 +64,7 @@ pod 'Jsqlite'
 
 [JSQLct instance].list(NSDictionary *data);
 ```
-内部实现1
+内部实现
 ```ruby
 for(NSString * tablename in data){
     wself.table(tablename).column([data objectForKey:tablename]);
