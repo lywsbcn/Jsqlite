@@ -46,13 +46,13 @@ BOOL success = [[JSQLconn instance] openDB];
 -(NSArray *)querySQL:(NSString *)SQL WithClass:(Class)name;
 -(NSArray *)querySQL:(NSString *)SQL
 ```
-获取插入数据后的
+获取插入数据后的 id值(主键,自增)
 ```ruby
 [[JSQLconn instance] getID];
 ```
 
 获取受影响的记录数
- 增,改,删
+ (增,改,删)
  ```ruby
  [[JSQLconn instance] changes];
  ```
