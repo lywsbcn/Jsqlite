@@ -32,9 +32,9 @@ pod 'Jsqlite'
          @"token":JSQCT_TEXT,
          @"logintime":JSQCT_INTEGER
      }
-     ```
+```
  范例2:
- ```ruby
+```ruby
      @{
            @"id":@["INTEGER","PRIMARY KEY"],            
      };
@@ -52,9 +52,9 @@ pod 'Jsqlite'
              @"logintime":JSQCT_INTEGER
          }
      }
-     ```
+```
  范例2:
- ```ruby
+```ruby
      @{
          @"user":@{
              @"id":@["INTEGER","PRIMARY KEY"],
