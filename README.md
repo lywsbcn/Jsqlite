@@ -121,11 +121,11 @@ NSArray * arr =[Jsqlite instance].table("user").className(Class name).select();
 ```
 条件查询
 ```ruby
-[Jsqlite instance].table("user").where("id=%ld",userid).select();
+NSArray * arr =[Jsqlite instance].table("user").where("id=%ld",userid).select();
 ```
 筛选的字段
 ```ruby
-[Jsqlite instance].table("user").where("id=%ld",userid).field("id,username,createtime").select();
+NSArray * arr =[Jsqlite instance].table("user").where("id=%ld",userid).field("id,username,createtime").select();
 ```
 排序
 ```ruby
@@ -133,10 +133,10 @@ NSArray * arr =[Jsqlite instance].table("user").className(Class name).select();
 ```
 分页
 ```ruby
-[Jsqlite instance].table("user").limit(10).select();
+NSArray * arr =[Jsqlite instance].table("user").limit(10).select();
 
 
-[Jsqlite instance].table("user").limit_two(0,10).select();
+NSArray * arr =[Jsqlite instance].table("user").limit_two(0,10).select();
 ```
 获取一条数据
 ```ruby
@@ -153,8 +153,9 @@ NSInteget changes = [Jsqlite instance].table("user").insertAll(NSArray* data);
 更新数据
 ```ruby
 NSInteget changes = [Jsqlite instance].table("user").update(NSDictionary* data);
-
+```
 删除记录
+```ruby
 NSInteget changes = [Jsqlite instance].table("user").where("id>0").del();
 ```
 数据数量
